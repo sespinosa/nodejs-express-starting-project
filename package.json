@@ -1,8 +1,8 @@
 {
-  "name": "graphql-fed",
+  "name": "nodejs-express-starting-project",
   "version": "1.0.0",
-  "description": "A graphql federation layer to execute search flows with NLP.",
-  "main": "src/index.js",
+  "description": "nodejs-express-starting-project",
+  "main": "dist/index.js",
   "scripts": {
     "start": "nodemon src --exec babel-node src/index.js",
     "build": "npm run lint && npm test && npm run unit-test && babel src --out-dir dist --source-maps --ignore 'src/**/*.spec.js'",
@@ -16,7 +16,7 @@
     "express",
     "nodejs"
   ],
-  "author": "Sebastián Espinosa <sebastian.espinosa@mcplusa.com>",
+  "author": "Sebastián Espinosa <sespinosar@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.2.0",
