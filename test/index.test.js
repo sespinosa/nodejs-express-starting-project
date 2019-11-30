@@ -19,7 +19,7 @@ describe('Example Node Server', () => {
         body += chunk;
       })
       res.on('end', () => {
-        expect(body.trim()).to.be.equal("Hello World");
+        expect(body.trim()).to.be.equal("Hello World !!");
         done();
       })
     })
